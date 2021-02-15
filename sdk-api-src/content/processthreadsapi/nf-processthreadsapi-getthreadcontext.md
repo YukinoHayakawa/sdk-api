@@ -71,7 +71,7 @@ A handle to the thread whose context is to be retrieved. The handle must have **
 
 ### -param lpContext [in, out]
 
-A pointer to a [CONTEXT](windows/win32/api/winnt/ns-winnt-context) structure (such as [ARM64_NT_CONTEXT](/windows/win32/api/winnt/ns-winnt-arm64_nt_context)) that receives the appropriate context of the specified thread. The value of the **ContextFlags** member of this structure specifies which portions of a thread's context are retrieved. The       **CONTEXT** structure is highly processor specific. Refer to the WinNT.h header file for processor-specific definitions of this structures and any alignment requirements.
+A pointer to a [CONTEXT](/windows/win32/api/winnt/ns-winnt-context) structure (such as [ARM64_NT_CONTEXT](/windows/win32/api/winnt/ns-winnt-arm64_nt_context)) that receives the appropriate context of the specified thread. The value of the **ContextFlags** member of this structure specifies which portions of a thread's context are retrieved. The       **CONTEXT** structure is highly processor specific. Refer to the WinNT.h header file for processor-specific definitions of this structures and any alignment requirements.
 
 ## -returns
 
